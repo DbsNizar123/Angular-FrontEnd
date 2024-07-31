@@ -1,0 +1,20 @@
+
+.form-container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin-top: -200px;
+  }
+  .form-header {
+    margin-bottom: 1.5rem;
+  }
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }

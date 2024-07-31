@@ -1,0 +1,76 @@
+{
+  "hash": "9fb0303b",
+  "configHash": "e4682782",
+  "lockfileHash": "84445712",
+  "browserHash": "3a1bbdb1",
+  "optimized": {
+    "@angular/common": {
+      "src": "../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "08169506",
+      "needsInterop": false
+    },
+    "@angular/common/http": {
+      "src": "../../../../../node_modules/@angular/common/fesm2022/http.mjs",
+      "file": "@angular_common_http.js",
+      "fileHash": "9ada7476",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "6330e823",
+      "needsInterop": false
+    },
+    "@angular/forms": {
+      "src": "../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
+      "file": "@angular_forms.js",
+      "fileHash": "0be5ae84",
+      "needsInterop": false
+    },
+    "@angular/material/paginator": {
+      "src": "../../../../../node_modules/@angular/material/fesm2022/paginator.mjs",
+      "file": "@angular_material_paginator.js",
+      "fileHash": "2bb9b004",
+      "needsInterop": false
+    },
+    "@angular/material/table": {
+      "src": "../../../../../node_modules/@angular/material/fesm2022/table.mjs",
+      "file": "@angular_material_table.js",
+      "fileHash": "061ef5fc",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "fd48f044",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "d4348030",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-EWOFHHRA": {
+      "file": "chunk-EWOFHHRA.js"
+    },
+    "chunk-LWZ4EQVL": {
+      "file": "chunk-LWZ4EQVL.js"
+    },
+    "chunk-ERINUDRV": {
+      "file": "chunk-ERINUDRV.js"
+    },
+    "chunk-TLB6U4HR": {
+      "file": "chunk-TLB6U4HR.js"
+    },
+    "chunk-SB2QJ4W4": {
+      "file": "chunk-SB2QJ4W4.js"
+    },
+    "chunk-LS6CKU77": {
+      "file": "chunk-LS6CKU77.js"
+    }
+  }
+}

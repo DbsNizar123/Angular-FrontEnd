@@ -1,0 +1,39 @@
+<div class="report-list">
+  <table class="table table-info table-striped">
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Creation Time</th>
+        <th>Update Time</th>
+        <th>Type</th>
+        <th>Status</th>
+        <th>Username</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let report of reports">
+        <td>{{ report.id }}</td>
+        <td>{{ report.title }}</td>
+        <td>{{ report.description }}</td>
+        <td>{{ report.creationTime }}</td>
+        <td>{{ report.updateTime }}</td>
+        <td>{{ report.type }}</td>
+        <td>{{ report.status }}</td>
+        <td>{{ report.user?.username }}</td>
+        <td>
+          <button (click)="updateReport(report.id)" class="btn btn-primary text-white">Update</button>
+          <button (click)="deleteReport(report.id)" class="btn btn-danger" style="margin-left: 10px;">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="pagination">
+    <button (click)="onPageChange(currentPage - 1)" [disabled]="currentPage === 0">Previous</button>
+    <span>Page {{ currentPage + 1 }} of {{ totalPages }}</span>
+    <button (click)="onPageChange(currentPage + 1)" [disabled]="currentPage + 1 >= totalPages">Next</button>
+  </div>
+</div>

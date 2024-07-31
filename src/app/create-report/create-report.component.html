@@ -1,0 +1,33 @@
+<h2 class="text-center">Add Report</h2>
+<form (ngSubmit)="saveReport()">
+  <label>Title: </label>
+  <input type="text" [(ngModel)]="report.title" name="title" required><br>
+  
+  <label>Description: </label>
+  <textarea [(ngModel)]="report.description" name="description" required></textarea><br>
+
+  <label>Type: </label>
+  <select [(ngModel)]="report.type" name="type" required>
+    <option value="USER_REPORT">User Report</option>
+    <option value="SYSTEM_REPORT">System Report</option>
+  </select><br>
+
+  <label>Status: </label>
+  <select [(ngModel)]="report.status" name="status" required>
+    <option value="CREATED">Created</option>
+    <option value="CHECKED">Checked</option>
+    <option value="PENDING">Pending</option>
+    <option value="RESOLVED">Resolved</option>
+  </select><br>
+
+  <label>Creation Time: </label>
+  <input type="datetime-local" [(ngModel)]="report.creationTime" name="creationTime" required><br>
+
+  <label>Update Time: </label>
+  <input type="datetime-local" [(ngModel)]="report.updateTime" name="updateTime" required><br>
+
+  
+
+
+  <button type="submit" class="btn btn-info">Save Report</button>
+</form>
